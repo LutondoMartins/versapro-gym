@@ -1,14 +1,14 @@
 :root {
-    --primary-green: #90EE02;
+    --primary-green: #ff692e;
     /* A lighter, more vibrant green */
-    --dark-bg: #1A1A1A;
+    --dark-bg: #1d2731;
     --light-bg: #FFFFFF;
     --text-color: #333333;
     --light-text: #F0F0F0;
     --card-bg: #F8F8F8;
     --border-color: #E0E0E0;
-    --gradient-start: #90EE02;
-    --gradient-end: #6B8E23;
+    --gradient-start: #ff692e;
+    --gradient-end: #ff692e;
     /* A darker green for the gradient end */
 }
 
@@ -96,12 +96,12 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 5px;
     text-decoration: none;
     font-weight: 700;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.2s ease;
 }
 
 .login-button:hover {
-    background-color: #7ACC00;
-    /* Slightly darker green on hover */
+    background-color: #782808;
+    color: #fff;
 }
 
 /* Mobile Menu Toggle */
@@ -249,7 +249,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .hero-button:hover {
-    background-color: #7ACC00;
+    color: #fafafa;
+    background-color: #782808;
 }
 
 .hero-social-dots {
@@ -361,7 +362,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .feature-button:hover {
-    background-color: #7ACC00;
+    color: #fafafa;
+    background-color: #782808;
 }
 
 /* Transform Section */
@@ -395,7 +397,7 @@ h1, h2, h3, h4, h5, h6 {
 .transform-item-image {
     flex: 1;
     min-width: 400px;
-    height: 300px;
+    height: 400px;
     background-color: var(--card-bg);
     /* Placeholder background */
     border-radius: 15px;
@@ -436,7 +438,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .transform-button:hover {
-    background-color: #7ACC00;
+    background-color: #782808;
 }
 
 .transform-section .start-now-button {
@@ -452,7 +454,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .transform-section .start-now-button:hover {
-    background-color: #7ACC00;
+    color: #fafafa;
+    background-color: #782808;
 }
 
 /* Pricing Section */
@@ -493,7 +496,7 @@ h1, h2, h3, h4, h5, h6 {
 .pricing-card.pro .price,
 .pricing-card.pro .price-per-month,
 .pricing-card.pro ul li {
-    color: var(--dark-bg);
+    color: #fafafa
 }
 
 .pricing-card h3 {
@@ -509,7 +512,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .pricing-card.pro .price {
-    color: var(--dark-bg);
+    color: #fafafa;
 }
 
 .pricing-card .price-per-month {
@@ -519,7 +522,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .pricing-card.pro .price-per-month {
-    color: var(--dark-bg);
+    color: #fafafa;
 }
 
 .pricing-card ul {
@@ -546,7 +549,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .pricing-card.pro ul li::before {
-    color: var(--dark-bg);
+    color: #fafafa;
 }
 
 .pricing-join-button {
@@ -569,7 +572,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .pricing-join-button:hover {
-    background-color: #7ACC00;
+    color: #fafafa;
+    background-color: #782808;
 }
 
 .pricing-card.pro .pricing-join-button:hover {
@@ -735,6 +739,16 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
     padding: 30px 0;
     font-size: 14px;
+}
+
+.footer a {
+    color: #fafafa;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer a:hover {
+    color: #ff692e;
 }
 
 /* Responsive Adjustments */
